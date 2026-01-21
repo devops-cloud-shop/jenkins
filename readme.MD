@@ -37,8 +37,8 @@ sudo systemctl enable jenkins
 
 ```
 Login as admin
+
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-```
 
 #### Plugins:
 * Stage view
