@@ -41,6 +41,10 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 #### Plugins:
 * Stage view
+* Pipeline Utility steps
+* AWS credentials
+* sonarQube scanner
+* AnsiColor
 
 #### Master Agent Architecture
 * Create credentials to connect agent
