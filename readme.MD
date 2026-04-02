@@ -16,7 +16,7 @@ xfs_growfs /home
 Installation commands from Jenkins official doc
 ```
 
- sudo tee /etc/yum.repos.d/jenkins.repo > /dev/null <<EOF
+sudo tee /etc/yum.repos.d/jenkins.repo > /dev/null <<EOF
 [jenkins]
 name=Jenkins-redhat-stable
 baseurl=https://pkg.jenkins.io/redhat-stable
@@ -25,7 +25,6 @@ gpgcheck=1
 repo_gpgcheck=0
 gpgkey=https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 EOF
-
 
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 # Add required dependencies for the jenkins package
